@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
->
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <com.wangjie.wheelview.WheelView
-        android:id="@+id/main_wv"
+    <com.mysiga.demo.view.NumWheelView
+        android:id="@+id/num_wheel"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-    />
-
-
-    <Button
-        android:id="@+id/main_show_dialog_btn"
-        android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="show WheelView in Dialog!"
-    />
+        android:layout_height="200dp"
+        android:background="@android:color/black" />
 
 </LinearLayout>

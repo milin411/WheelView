@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:2.3.0'
     }
 }
 apply plugin: 'com.android.application'
@@ -14,11 +14,11 @@ repositories {
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.wangjie.wheelview"
-        minSdkVersion 8
+        applicationId "com.mysiga.demo"
+        minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"

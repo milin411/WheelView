@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="num_select_color">#ffffffff</color>
+    <color name="num_un_select_color">#3F51BA</color>
+</resources>

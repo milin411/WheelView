@@ -1,4 +1,4 @@
-package com.wangjie.wheelview;
+package com.mysiga.demo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

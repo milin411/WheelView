@@ -27,5 +27,4 @@ proguard/
 *.log
 *.idea
 *.gradle
-*.idea/
-*.gradle/
+.idea/
